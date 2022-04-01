@@ -1,0 +1,33 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gray;
+}
+
+#construction {
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#home {
+    
+    display: flex;
+    border: solid black 1px;
+    border-radius: .1rem;
+    width: 6rem;
+    height: 3rem;
+    cursor:pointer;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+#home:hover {
+    background-color: black;
+    color:white;
+    width:7rem;
+    height: 4rem;
+    transition: .5s;
+}
